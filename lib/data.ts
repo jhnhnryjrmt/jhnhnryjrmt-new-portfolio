@@ -36,28 +36,36 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Graduated bootcamp',
-    location: 'Miami, FL',
+    title: 'Graduated College',
+    company: 'Ramon Magsaysay Memorial Colleges',
     description:
-      'I graduated after 6 months of studying. I immediately found a job as a front-end developer.',
+      'Graduated with a bachelor\'s degree in IT.',
     icon: React.createElement(LuGraduationCap),
-    date: '2019',
+    date: '03-2018',
   },
   {
-    title: 'Front-End Developer',
-    location: 'Orlando, FL',
+    title: 'IT Specialist',
+    company: 'Pryce Gases, Inc.',
     description:
-      'I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.',
+      'I worked as an IT Specialist at Pryce Gases, Inc.',
     icon: React.createElement(CgWorkAlt),
-    date: '2019 - 2021',
+    date: '11/2019 - 09/2020',
   },
   {
-    title: 'Full-Stack Developer',
-    location: 'Houston, TX',
+    title: 'Web Developer Trainee',
+    company: 'VOLENDAY INC.',
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: '2021 - present',
+      'I worked as a Web Developer Trainee for 3 months at VOLENDAY',
+    icon: React.createElement(CgWorkAlt),
+    date: '03/2022 - 06/2022',
+  },
+  {
+    title: 'IT Support Engineer',
+    company: 'CloudConsole, Inc.',
+    description:
+      "I'm now an IT Support Engineer at CloudConsole with tech-support experience.",
+    icon: React.createElement(CgWorkAlt),
+    date: '08/2022 - present',
   },
 ] as const;
 
