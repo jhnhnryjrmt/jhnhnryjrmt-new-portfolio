@@ -29,7 +29,7 @@ export default function Experience() {
                 boxShadow: 'none',
                 border: '.5px solid rgba(0, 0, 0, 0.05)',
                 textAlign: 'left',
-                padding: "1.3rem 2rem",
+                padding: '1.3rem 2rem',
               }}
               contentArrowStyle={{
                 borderRight:
@@ -47,7 +47,7 @@ export default function Experience() {
               visible={true}
             >
               <h3 className='font-semibold capitalize'>{item.title}</h3>
-              <h4 className='font-bold capitalize !mt-2'>{item.company}</h4>
+              <p className='font-normal !mt-0'>{item.company}</p>
               <p className='!mt-1 !font-normal text-gray-700 dark:text-white/75'>
                 {item.description}
               </p>
